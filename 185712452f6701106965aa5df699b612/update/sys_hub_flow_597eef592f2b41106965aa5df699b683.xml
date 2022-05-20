@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>snow_to_azure_fa</internal_name>
+        <label_cache>[{"name":"Created_1.current.contact_number","label":"Trigger - Record Created➛Incident Table Record➛Contact Number","reference":"","reference_display":"Contact Number","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"contact_number"},{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Table Record","reference":"x_821178_vodafone_incident_table","reference_display":"Incident Table","type":"reference","base_type":"reference","attributes":{}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.table_name","label":"2 - Update Record➛Incident Table Table","reference":"x_821178_vodafone_incident_table","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.record","label":"2 - Update Record➛Incident Table Record","reference":"x_821178_vodafone_incident_table","reference_display":"Incident Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Incident Table Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"email"},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Incident Table Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"last_name"},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Incident Table Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"first_name"},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.__dont_treat_as_error__","label":"1 - POST Azure FA➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a567b36a-a604-49f9-bbf9-edf25261f3fd"}},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.__action_status__","label":"1 - POST Azure FA➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD50eeeb99282b411018c9369dfe17d42e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"a3bb8b05-3f5f-48d6-8e95-50c1f9d8c7e2"}},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.status_code","label":"1 - POST Azure FA➛Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2ded857e-6fe4-458c-99d2-97d7dd5ef232"}},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.status","label":"1 - POST Azure FA➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"844b7fd2-0e56-4290-8756-741374d32b0e"}}]</label_cache>
+        <master_snapshot>02691fad2f6781106965aa5df699b679</master_snapshot>
+        <name>SNow to Azure FA </name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>36691fad2f6781106965aa5df699b6f9</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:57:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>597eef592f2b41106965aa5df699b683</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SNow to Azure FA </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VodaFone Spoke" source="x_821178_vodafone">185712452f6701106965aa5df699b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name>sys_hub_flow_597eef592f2b41106965aa5df699b683</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:38</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=597eef592f2b41106965aa5df699b683"/>
+    <sys_variable_value action="delete_multiple" query="document_key=597eef592f2b41106965aa5df699b683"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_821178_vodafone_incident_table">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36691fad2f6781106965aa5df699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:37</sys_updated_on>
+        <table>x_821178_vodafone_incident_table</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"32691fad2f6781106965aa5df699b6fa","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>597eef592f2b41106965aa5df699b683</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:37</sys_created_on>
+        <sys_id>32691fad2f6781106965aa5df699b6fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:38</sys_updated_on>
+        <trigger display_value="">36691fad2f6781106965aa5df699b6f9</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>32691fad2f6781106965aa5df699b6fa</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:38</sys_created_on>
+        <sys_id>7e691fad2f6781106965aa5df699b6fa</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=597eef592f2b41106965aa5df699b683^sys_idNOT IN32691fad2f6781106965aa5df699b6fa"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=597eef592f2b41106965aa5df699b683^sys_idNOT IN08fe2f992f2b41106965aa5df699b6c8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SNow to Azure FA ">597eef592f2b41106965aa5df699b683</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:59:10</sys_created_on>
+        <sys_id>08fe2f992f2b41106965aa5df699b6c8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:38</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=08fe2f992f2b41106965aa5df699b6c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>08fe2f992f2b41106965aa5df699b6c8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:59:10</sys_created_on>
+        <sys_id>8cfe2f992f2b41106965aa5df699b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 09:59:10</sys_updated_on>
+        <value>x_821178_vodafone_incident_table</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>08fe2f992f2b41106965aa5df699b6c8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:59:10</sys_created_on>
+        <sys_id>c8fe2f992f2b41106965aa5df699b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 09:59:10</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=597eef592f2b41106965aa5df699b683"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=597eef592f2b41106965aa5df699b683^sys_idNOT IN957eef592f2b41106965aa5df699b685"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>597eef592f2b41106965aa5df699b683</id>
+        <name>SNow to Azure FA </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:57:05</sys_created_on>
+        <sys_id>957eef592f2b41106965aa5df699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 09:57:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=957eef592f2b41106965aa5df699b685"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=597eef592f2b41106965aa5df699b683^sys_idNOT INb7ee2f992f2b41106965aa5df699b6bf,fbee2f992f2b41106965aa5df699b6c3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SNow to Azure FA ">597eef592f2b41106965aa5df699b683</model>
+        <model_id>597eef592f2b41106965aa5df699b683</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_597eef592f2b41106965aa5df699b683</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:59:09</sys_created_on>
+        <sys_id>b7ee2f992f2b41106965aa5df699b6bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SNow to Azure FA ">597eef592f2b41106965aa5df699b683</model>
+        <model_id>597eef592f2b41106965aa5df699b683</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_597eef592f2b41106965aa5df699b683</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:59:10</sys_created_on>
+        <sys_id>fbee2f992f2b41106965aa5df699b6c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=597eef592f2b41106965aa5df699b683"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=597eef592f2b41106965aa5df699b683"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=597eef592f2b41106965aa5df699b683^sys_idNOT IN455f27d92f2b41106965aa5df699b662,fa647b112f6b41106965aa5df699b6e2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="POST Azure FA">40eeeb992f2b41106965aa5df699b603</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>40eeeb992f2b41106965aa5df699b603</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SNow to Azure FA ">597eef592f2b41106965aa5df699b683</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:00:52</sys_created_on>
+        <sys_id>455f27d92f2b41106965aa5df699b662</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 09:16:36</sys_updated_on>
+        <ui_id>2af811d9-e23e-4f9e-b832-3b291105160e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=455f27d92f2b41106965aa5df699b662"/>
+    <sys_element_mapping action="delete_multiple" query="id=455f27d92f2b41106965aa5df699b662"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>contact_number</field>
+        <id>455f27d92f2b41106965aa5df699b662</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 02:53:15</sys_created_on>
+        <sys_id>7e07972d2f6781106965aa5df699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 02:53:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.contact_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email</field>
+        <id>455f27d92f2b41106965aa5df699b662</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:00:52</sys_created_on>
+        <sys_id>0d5f27d92f2b41106965aa5df699b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 10:00:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>firstname</field>
+        <id>455f27d92f2b41106965aa5df699b662</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:00:52</sys_created_on>
+        <sys_id>495f27d92f2b41106965aa5df699b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 10:00:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lastname</field>
+        <id>455f27d92f2b41106965aa5df699b662</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:00:52</sys_created_on>
+        <sys_id>cd5f27d92f2b41106965aa5df699b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 10:00:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.last_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=455f27d92f2b41106965aa5df699b662"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=455f27d92f2b41106965aa5df699b662"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SNow to Azure FA ">597eef592f2b41106965aa5df699b683</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:23:06</sys_created_on>
+        <sys_id>fa647b112f6b41106965aa5df699b6e2</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 09:16:36</sys_updated_on>
+        <ui_id>a3dedb94-f80d-4e71-9dae-efc5af6d158c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa647b112f6b41106965aa5df699b6e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa647b112f6b41106965aa5df699b6e2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:23:06</sys_created_on>
+        <sys_id>3e647b112f6b41106965aa5df699b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 10:23:06</sys_updated_on>
+        <value>x_821178_vodafone_incident_table</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fa647b112f6b41106965aa5df699b6e2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fa647b112f6b41106965aa5df699b6e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:23:06</sys_created_on>
+        <sys_id>f6647b112f6b41106965aa5df699b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 10:23:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fa647b112f6b41106965aa5df699b6e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:23:06</sys_created_on>
+        <sys_id>36647b112f6b41106965aa5df699b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 10:23:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fa647b112f6b41106965aa5df699b6e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 10:23:06</sys_created_on>
+        <sys_id>ba647b112f6b41106965aa5df699b6e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 10:58:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>status_code={{2af811d9-e23e-4f9e-b832-3b291105160e.status}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa647b112f6b41106965aa5df699b6e2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa647b112f6b41106965aa5df699b6e2"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=597eef592f2b41106965aa5df699b683"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=597eef592f2b41106965aa5df699b683"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=597eef592f2b41106965aa5df699b683"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=597eef592f2b41106965aa5df699b683"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_597eef592f2b41106965aa5df699b683^sys_idNOT IN04fe2f992f2b41106965aa5df699b6c6,3fee2f992f2b41106965aa5df699b6c2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_597eef592f2b41106965aa5df699b683</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:59:10</sys_created_on>
+        <sys_id>04fe2f992f2b41106965aa5df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VodaFone Spoke" source="x_821178_vodafone">185712452f6701106965aa5df699b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 09:59:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_597eef592f2b41106965aa5df699b683</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 09:59:10</sys_created_on>
+        <sys_id>3fee2f992f2b41106965aa5df699b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VodaFone Spoke" source="x_821178_vodafone">185712452f6701106965aa5df699b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 09:59:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_597eef592f2b41106965aa5df699b683"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_597eef592f2b41106965aa5df699b683"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_597eef592f2b41106965aa5df699b683"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=597eef592f2b41106965aa5df699b683^sys_idNOT INf6691fad2f6781106965aa5df699b6fb"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f6691fad2f6781106965aa5df699b6fb","name":"plan","plan_signature":null}}</plan>
+        <plan_id>597eef592f2b41106965aa5df699b683</plan_id>
+        <snapshot>c2ce207d2fab81106965aa5df699b6aa</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f6691fad2f6781106965aa5df699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:38</sys_updated_on>
+        <trigger display_value="">36691fad2f6781106965aa5df699b6f9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=597eef592f2b41106965aa5df699b683"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>snow_to_azure_fa</internal_name>
+        <label_cache>[{"name":"Created_1.current.contact_number","label":"Trigger - Record Created➛Incident Table Record➛Contact Number","reference":"","reference_display":"Contact Number","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"contact_number"},{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Table Record","reference":"x_821178_vodafone_incident_table","reference_display":"Incident Table","type":"reference","base_type":"reference","attributes":{}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.table_name","label":"2 - Update Record➛Incident Table Table","reference":"x_821178_vodafone_incident_table","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3dedb94-f80d-4e71-9dae-efc5af6d158c.record","label":"2 - Update Record➛Incident Table Record","reference":"x_821178_vodafone_incident_table","reference_display":"Incident Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Incident Table Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"email"},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Incident Table Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"last_name"},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Incident Table Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_821178_vodafone_incident_table","column_name":"first_name"},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.__dont_treat_as_error__","label":"1 - POST Azure FA➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a567b36a-a604-49f9-bbf9-edf25261f3fd"}},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.__action_status__","label":"1 - POST Azure FA➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD50eeeb99282b411018c9369dfe17d42e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"a3bb8b05-3f5f-48d6-8e95-50c1f9d8c7e2"}},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.status_code","label":"1 - POST Azure FA➛Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2ded857e-6fe4-458c-99d2-97d7dd5ef232"}},{"name":"2af811d9-e23e-4f9e-b832-3b291105160e.status","label":"1 - POST Azure FA➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"844b7fd2-0e56-4290-8756-741374d32b0e"}}]</label_cache>
+        <master>true</master>
+        <name>SNow to Azure FA </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="SNow to Azure FA ">597eef592f2b41106965aa5df699b683</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>02691fad2f6781106965aa5df699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=02691fad2f6781106965aa5df699b679"/>
+    <sys_variable_value action="delete_multiple" query="document_key=02691fad2f6781106965aa5df699b679"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=02691fad2f6781106965aa5df699b679^sys_idNOT IN1a691fad2f6781106965aa5df699b6d4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SNow to Azure FA ">02691fad2f6781106965aa5df699b679</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>1a691fad2f6781106965aa5df699b6d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:38</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1a691fad2f6781106965aa5df699b6d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1a691fad2f6781106965aa5df699b6d4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>22691fad2f6781106965aa5df699b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1a691fad2f6781106965aa5df699b6d4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>e2691fad2f6781106965aa5df699b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <value>x_821178_vodafone_incident_table</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=02691fad2f6781106965aa5df699b679"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=02691fad2f6781106965aa5df699b679^sys_idNOT IN02691fad2f6781106965aa5df699b67a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>02691fad2f6781106965aa5df699b679</id>
+        <name>SNow to Azure FA </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:35</sys_created_on>
+        <sys_id>02691fad2f6781106965aa5df699b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=02691fad2f6781106965aa5df699b67a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=02691fad2f6781106965aa5df699b679^sys_idNOT IN86691fad2f6781106965aa5df699b67b,8a691fad2f6781106965aa5df699b691"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SNow to Azure FA ">02691fad2f6781106965aa5df699b679</model>
+        <model_id>02691fad2f6781106965aa5df699b679</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_02691fad2f6781106965aa5df699b679</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:35</sys_created_on>
+        <sys_id>86691fad2f6781106965aa5df699b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SNow to Azure FA ">02691fad2f6781106965aa5df699b679</model>
+        <model_id>02691fad2f6781106965aa5df699b679</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_02691fad2f6781106965aa5df699b679</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:35</sys_created_on>
+        <sys_id>8a691fad2f6781106965aa5df699b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=02691fad2f6781106965aa5df699b679"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=02691fad2f6781106965aa5df699b679"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=02691fad2f6781106965aa5df699b679^sys_idNOT IN5e691fad2f6781106965aa5df699b6bd,9a691fad2f6781106965aa5df699b6c5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="POST Azure FA">40eeeb992f2b41106965aa5df699b603</action_type>
+        <action_type_parent display_value="POST Azure FA">af0a16c52f6701106965aa5df699b6e6</action_type_parent>
+        <comment/>
+        <compiled_snapshot>40eeeb992f2b41106965aa5df699b603</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SNow to Azure FA ">02691fad2f6781106965aa5df699b679</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>5e691fad2f6781106965aa5df699b6bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <ui_id>2af811d9-e23e-4f9e-b832-3b291105160e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e691fad2f6781106965aa5df699b6bd"/>
+    <sys_element_mapping action="delete_multiple" query="id=5e691fad2f6781106965aa5df699b6bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>contact_number</field>
+        <id>5e691fad2f6781106965aa5df699b6bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>de691fad2f6781106965aa5df699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.contact_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email</field>
+        <id>5e691fad2f6781106965aa5df699b6bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>92691fad2f6781106965aa5df699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>firstname</field>
+        <id>5e691fad2f6781106965aa5df699b6bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>1a691fad2f6781106965aa5df699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lastname</field>
+        <id>5e691fad2f6781106965aa5df699b6bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>56691fad2f6781106965aa5df699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40eeeb992f2b41106965aa5df699b603</table>
+        <value>{{Created_1.current.last_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5e691fad2f6781106965aa5df699b6bd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5e691fad2f6781106965aa5df699b6bd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SNow to Azure FA ">02691fad2f6781106965aa5df699b679</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>9a691fad2f6781106965aa5df699b6c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <ui_id>a3dedb94-f80d-4e71-9dae-efc5af6d158c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9a691fad2f6781106965aa5df699b6c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9a691fad2f6781106965aa5df699b6c5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>d6691fad2f6781106965aa5df699b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <value>x_821178_vodafone_incident_table</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9a691fad2f6781106965aa5df699b6c5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9a691fad2f6781106965aa5df699b6c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>92691fad2f6781106965aa5df699b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9a691fad2f6781106965aa5df699b6c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>de691fad2f6781106965aa5df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9a691fad2f6781106965aa5df699b6c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:36</sys_created_on>
+        <sys_id>56691fad2f6781106965aa5df699b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>status_code={{2af811d9-e23e-4f9e-b832-3b291105160e.status}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9a691fad2f6781106965aa5df699b6c5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a691fad2f6781106965aa5df699b6c5"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=02691fad2f6781106965aa5df699b679"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=02691fad2f6781106965aa5df699b679"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=02691fad2f6781106965aa5df699b679"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=02691fad2f6781106965aa5df699b679"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_02691fad2f6781106965aa5df699b679^sys_idNOT IN42691fad2f6781106965aa5df699b68e,d2691fad2f6781106965aa5df699b696"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_02691fad2f6781106965aa5df699b679</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:35</sys_created_on>
+        <sys_id>42691fad2f6781106965aa5df699b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VodaFone Spoke" source="x_821178_vodafone">185712452f6701106965aa5df699b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_02691fad2f6781106965aa5df699b679</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 03:03:35</sys_created_on>
+        <sys_id>d2691fad2f6781106965aa5df699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="VodaFone Spoke" source="x_821178_vodafone">185712452f6701106965aa5df699b612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VodaFone Spoke">185712452f6701106965aa5df699b612</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 03:03:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_02691fad2f6781106965aa5df699b679"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_02691fad2f6781106965aa5df699b679"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_02691fad2f6781106965aa5df699b679"/>
+    <sys_hub_flow action="update">
+        <sys_id>597eef592f2b41106965aa5df699b683</sys_id>
+        <latest_snapshot>02691fad2f6781106965aa5df699b679</latest_snapshot>
+    </sys_hub_flow>
+</record_update>
